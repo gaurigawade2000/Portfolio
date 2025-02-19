@@ -4,30 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gauri Dattu Gawade-Portfolio</title>
-    <link rel="stylesheet" href="">
+    <title>Gauri Dattu Gawade- Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Images/gg.svg">
+    <link rel="stylesheet" href="Assets/CSS.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navigation -->
+     
+    <nav>
+         
+        <ul>
+            <li>Gauri <br> Gawade</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Home Section -->
     <section id="home">
         <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I am [Your Name]. I am a [Your Profession].</p>
+        <p>Hi, I'm Gauri Dattu Gawade. I am a Java Full Stack Developer.</p>
     </section>
 
-    <footer>
-        <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
-    </footer>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1">
+            <div class="overlay">
+                <h3>Interactive Resume</h3>
+                <p>I developed an interactive resume using HTML, CSS, and JavaScript. it is a static web page </p>
+            </div>
+        </div>
+        <!-- More portfolio items -->
+    </section>
+    
 
-    <script src="js/script.js"></script>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <ul>
+            <li>Email: gaurigawade2000@gmail.com </li>
+            <li>Contact No: 9960969369 </li>
+            <li>Gender: Female</li>
+            <li>Language: English, Marathi, Hindi</li>
+            <li>Skills</li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Gauri Gawade. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
