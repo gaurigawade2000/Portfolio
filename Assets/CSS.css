@@ -14,8 +14,8 @@ body {
 
 /* Navigation Styling */
 nav {
-    background-color: #333;
-    padding: 1rem;
+    background-color: #05aa9c;
+    padding: 6rem;
 }
 
 nav ul {
@@ -25,7 +25,8 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: auto 50px;
+    display: flex;
 }
 
 nav ul li a {
@@ -33,11 +34,37 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+.logo{
+  padding: 10px;
+  color: white;
+    font-weight: bolder;
+    margin:auto 50px;
+    text-align: center;
+    display: flex;
+}
+.add_icon img{
+   object-fit: cover;
+   width: 60px;
+   display: block;
+  }
+.add_text{
+    display: block;
+    padding:5px;
+    text-shadow: 2px 2px 2px black;
+    font-weight:bolder;
+    font-size: large;
+} 
 
 nav ul li a:hover {
     color: #c0c0c0;
+    border: 2px solid white;
+    padding: 3px;
 }
 
+.logo:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+}
 /* Section Styling */
 section {
     padding: 60px 20px;
