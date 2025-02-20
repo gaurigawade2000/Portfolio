@@ -38,9 +38,10 @@ nav ul li a {
   padding: 10px;
   color: white;
     font-weight: bolder;
-    margin:auto 50px;
+    
     text-align: center;
     display: flex;
+    margin-right:150px;
 }
 .add_icon img{
    object-fit: cover;
@@ -56,26 +57,55 @@ nav ul li a {
 } 
 
 nav ul li a:hover {
-    color: #c0c0c0;
-    border: 2px solid white;
-    padding: 3px;
+    color: #0a0404;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    padding:10px;
 }
 
 .logo:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     border-radius: 0.5rem;
 }
+/* mobile navigation Bar*/
+@media (max-width: 768px){
+
+    nav ul{
+        position: absolute;
+        top: 0px;
+        margin: auto;
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+}
 /* Section Styling */
 section {
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 #home {
-    background-color: #333;
-    color: white;
+    background-color: #c7d5dd;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+    font-weight: bolder;
+    font-style: italic;
+    text-align: left;
+    display: flex;
 }
-
+.home_img{
+  width: 100px;
+    object-fit:cover;
+    padding:0%;
+    box-shadow: 3px -3px 3px 3px black;
+    user-select: none;
+}
 
 #about {
     background-color: #f4f4f4;
