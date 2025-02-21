@@ -4,17 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --main-color:#05aa9c;
+    --secondary-color:#c7d5dd;
+    --button-color:blue;
+    
+}
 /* Body and overall layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
 }
 
 /* Navigation Styling */
 nav {
-    background-color: #05aa9c;
+    background-color:var(--main-color);
     padding: 6rem;
 }
 
@@ -91,7 +95,7 @@ section {
 }
 
 #home {
-    background-color: #c7d5dd;
+    background-color: var(--secondary-color);
     color:black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
     font-weight: bolder;
@@ -202,4 +206,38 @@ footer {
 
 .portfolio-item:hover .overlay {
     opacity: 1;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer_main{
+    background-color:var(--main-color) ;
+    padding:10px;
+    display: flex;
+}
+.shall_we{
+    text-align: center;
+    font-size:5rem;
+    line-height: normal;
+    font-style: italic;
+    height: auto;
+    flex: 50%;
+    text-align: right;
+}
+.footer_contact{
+    margin: 50px 50px;
+    flex: 50%;
+    padding:20px 200px;
+}
+.footer_email a{
+    text-decoration: none;
+    color:white;
+}
+.footer_email{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:5px 20px;
 }
